@@ -106,6 +106,16 @@ h1 {
     transform:  scale(2) translateY(20px);
 }
 
+.footBar{
+    height: 50px;
+    width: 75px;
+    margin: 35px auto;
+    transition: all 1s;
+}
+.footBar:hover{
+    transform: scale(2) translateY(-20px);
+}
+
 .inicioTrans{
     transition: all 1s ease-in-out;
     
@@ -135,4 +145,4 @@ h1 {
         transform: rotate(360deg);
     }
     
-}   
+}  
