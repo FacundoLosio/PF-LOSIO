@@ -1,0 +1,79 @@
+.vehiculos{
+    display:list-item;
+}
+
+.secPrincipal {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+}  
+
+.flexService{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.box:hover{
+    transform: scale(2);    
+    }
+
+.img1{
+    transition: all 2s;
+}
+.img2{
+    transition: all 2s;
+}
+.navBar{
+    height: 50px;
+    width: 75px;
+    margin: 35px auto;
+    transition: all 1s;
+}
+.navBar:hover{
+    transform:  scale(2) translateY(20px);
+}
+
+.footBar{
+    height: 50px;
+    width: 75px;
+    margin: 35px auto;
+    transition: all 1s;
+}
+.footBar:hover{
+    transform: scale(2) translateY(-20px);
+}
+
+.inicioTrans{
+    transition: all 1s ease-in-out;
+    
+}
+.inicioTrans:hover{
+    transform: translateY(100px);
+}
+
+.imgPrincipal:hover{
+    animation: giroImagen 500ms;
+}
+
+@keyframes giroImagen{
+    20%{
+        transform: rotate(45deg);
+    }
+    35%{
+        transform: rotate(90deg);
+    }
+    60%{
+        transform: rotate(180deg);
+    }
+    80%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
